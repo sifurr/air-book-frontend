@@ -12,8 +12,8 @@ const Navbar = () => {
     setIsMenuOpen(!isMenuOpen);
   };
 
-  return (   
-      <nav className="mx-auto h-[84px] bg-white max-w-[1119px] px-4 sm:px-6 lg:px-8">
+  return (       
+      <nav className="h-[84px] opacity-70 z-20 bg-white max-width px-4 sm:px-6 lg:px-8">
         <div className="flex h-16 items-center justify-between">
           <div className="md:flex md:items-center md:gap-12">
             <Link href="/" className="flex justify-center items-center">
